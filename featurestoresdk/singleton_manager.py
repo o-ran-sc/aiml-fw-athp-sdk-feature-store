@@ -28,6 +28,8 @@ from featurestoresdk.sdk_exception import SdkException
 class SingletonManager:
     """
     This class is used to get sdk configuration and logger.
+    Simplified Singleton implementation.
+    Thread safety not considered, only reading from the instance after creation.
     """
 
     __instance = None
