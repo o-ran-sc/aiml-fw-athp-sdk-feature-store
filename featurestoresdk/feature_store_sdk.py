@@ -22,6 +22,8 @@ from featurestoresdk.sdk_exception import SdkException
 from featurestoresdk.singleton_manager import SingletonManager
 import pandas as pd
 import traceback
+from kubernetes import client, config
+import base64
 
 
 class FeatureStoreSdk:
@@ -33,7 +35,7 @@ class FeatureStoreSdk:
         self.feature_store_ip = self.config["feature_store_ip"]
         self.feature_store_port = self.config["feature_store_port"]
         self.feature_store_username = self.config["feature_store_username"]
-        self.feature_store_password = self.config["feature_store_password"]
+        self.feature_store_password = self.get_feature_store_pwd()
         self.feature_store_db_name = self.config["feature_store_db_name"]
         self.clust = Cluster(
             [self.feature_store_ip],
@@ -44,6 +46,16 @@ class FeatureStoreSdk:
             ),
         )
         self.session = self.clust.connect(self.feature_store_db_name)
+
+    def get_feature_store_pwd(self):
+        """
+            This function would retrieve feature-store-password from kubernetes secrets
+        """
+        config.load_incluster_config()
+        v1 = client.CoreV1Api()
+        sec = v1.read_namespaced_secret("cassandra", 'traininghost').data
+        fs_pwd = base64.b64decode(sec.get("cassandra-password")).decode('utf-8')
+        return fs_pwd
 
     def get_features(self, trainingjob_name, features):
         """
