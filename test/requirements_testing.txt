@@ -1,0 +1,5 @@
+pytest-cov
+mock
+cassandra-driver==3.25.0
+pandas
+kubernetes
