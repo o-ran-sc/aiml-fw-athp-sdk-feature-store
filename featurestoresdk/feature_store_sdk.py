@@ -86,7 +86,7 @@ class FeatureStoreSdk:
                         nospaced_feat.append(feature)
 
             # Fetch all non spaced features in one query
-            nospace_q = self.build_fetchQuery(trainingjob_name, nospaced_feat)
+            nospace_q = self.build_fetch_query(trainingjob_name, nospaced_feat)
             response_nonspace = self.session.execute(nospace_q, timeout=None)
             merged_df = pd.DataFrame(response_nonspace)
 
@@ -94,7 +94,7 @@ class FeatureStoreSdk:
             # Fetch all spaced feature data one by one and merge with non spaced dataframe
             if len(spaced_feat) > 0:
                 for feature in spaced_feat:
-                    space_q = self.build_featchQuery_single(trainingjob_name, feature)
+                    space_q = self.build_fetch_query_single(trainingjob_name, feature)
                     response_nonspace = self.session.execute(space_q, timeout=None)
                     space_pd = pd.DataFrame(response_nonspace)
                     feature = feature.replace('"', "")
@@ -110,11 +110,11 @@ class FeatureStoreSdk:
             )
             return merged_df
 
-        except:
+        except Exception as exc:
             self.logger.error(traceback.format_exc())
             raise SdkException("error while getting data from feature store") from None
 
-    def build_fetchQuery(self, trainingjob_name, features):
+    def build_fetch_query(self, trainingjob_name, features):
         """
         Builds simple sql query for given table and features list
         """
@@ -127,7 +127,7 @@ class FeatureStoreSdk:
         self.logger.debug("Check Select query--> " + query)
         return query
 
-    def build_featchQuery_single(self, trainingjob_name, feature):
+    def build_fetch_query_single(self, trainingjob_name, feature):
         """
         Builds simple sql query for given table and single feature
         """
