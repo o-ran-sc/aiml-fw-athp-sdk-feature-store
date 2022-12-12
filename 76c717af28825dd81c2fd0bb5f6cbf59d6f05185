@@ -67,6 +67,23 @@
       "message": "Looks good, Change of naming convention ",
       "revId": "76c717af28825dd81c2fd0bb5f6cbf59d6f05185",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9ff3e05_45af8d0a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001948
+      },
+      "writtenOn": "2022-12-12T13:24:22Z",
+      "side": 1,
+      "message": "run-sonar",
+      "revId": "76c717af28825dd81c2fd0bb5f6cbf59d6f05185",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
