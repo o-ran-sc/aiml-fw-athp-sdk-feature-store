@@ -1,0 +1,8 @@
+Code-Review+2: hoejoo lee <hoejoo.lee@samsung.com>
+Verified+1: ORAN Jobbuilder <releng+oran-jobbuilder@linuxfoundation.org>
+Verified+1: hoejoo lee <hoejoo.lee@samsung.com>
+Submitted-by: hoejoo lee <hoejoo.lee@samsung.com>
+Submitted-at: Thu, 01 Jun 2023 08:52:46 +0000
+Reviewed-on: https://gerrit.o-ran-sc.org/r/c/aiml-fw/athp/sdk/feature-store/+/11252
+Project: aiml-fw/athp/sdk/feature-store
+Branch: refs/heads/master
