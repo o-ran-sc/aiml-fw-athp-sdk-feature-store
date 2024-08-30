@@ -74,6 +74,7 @@ class FeatureStoreSdk:
             merged_df = pd.DataFrame()
             nospaced_feat = []
             spaced_feat = []
+            nospaced_feat.append('"__Id"')
             if len(features) > 0:
                 for feature in features:
                     # FS maintains case sensitivity of feature, hence wrapping search inside ""
@@ -102,7 +103,12 @@ class FeatureStoreSdk:
                         feature
                     ]  # Rename the column as supplied in function parameter
                     # Check null or pd size
-                    merged_df = pd.concat([merged_df, space_pd], axis=1)
+                    merged_df = pd.merge(merged_df, space_pd, left_index=True, right_index=True)
+
+            if "Id" in merged_df.columns:
+                merged_df = merged_df.sort_values(by="Id")
+                merged_df = merged_df.set_index("Id", drop=True)
+                merged_df.index.name = None
 
             # Test if pipeline can access this result
             self.logger.debug(
