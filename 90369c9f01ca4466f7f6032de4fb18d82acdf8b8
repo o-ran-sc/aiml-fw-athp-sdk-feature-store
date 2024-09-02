@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf0f0118_5a8126ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000475
+      },
+      "writtenOn": "2024-09-02T09:49:44Z",
+      "side": 1,
+      "message": "Hello @Taewan , I feel ordering of data might not be required for model training as per my understanding while building model within dataset order could be changed it will not change end model.",
+      "revId": "90369c9f01ca4466f7f6032de4fb18d82acdf8b8",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    }
+  ]
+}
