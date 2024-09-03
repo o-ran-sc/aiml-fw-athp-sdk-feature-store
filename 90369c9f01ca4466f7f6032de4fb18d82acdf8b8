@@ -16,6 +16,57 @@
       "message": "Hello @Taewan , I feel ordering of data might not be required for model training as per my understanding while building model within dataset order could be changed it will not change end model.",
       "revId": "90369c9f01ca4466f7f6032de4fb18d82acdf8b8",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8611f405_92e05fa8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002137
+      },
+      "writtenOn": "2024-09-03T08:21:15Z",
+      "side": 1,
+      "message": "I don\u0027t know how it will be concluded, but I left review comments assuming that this could be merged.",
+      "revId": "90369c9f01ca4466f7f6032de4fb18d82acdf8b8",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af918ea7_8b58f202",
+        "filename": "featurestoresdk/feature_store_sdk.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1002137
+      },
+      "writtenOn": "2024-09-03T08:21:15Z",
+      "side": 1,
+      "message": "Is there no need to add `__id` to `spaced_feat`?",
+      "revId": "90369c9f01ca4466f7f6032de4fb18d82acdf8b8",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e72e5aa7_4606dcc6",
+        "filename": "featurestoresdk/feature_store_sdk.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1002137
+      },
+      "writtenOn": "2024-09-03T08:21:15Z",
+      "side": 1,
+      "message": "What about sorting the data by adding `order by` to Cassandra query at `build_fetch_query` and `build_fetch_query_single`?",
+      "revId": "90369c9f01ca4466f7f6032de4fb18d82acdf8b8",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
