@@ -1,0 +1,8 @@
+---
+pypi_project: aiml_fw_athp_sdk_feature_store
+# python version must be parsed as a string, not number
+python_version: '3.8'
+# version to release
+version: 1.0.0
+# partial URL of logs from job that staged the package to test.pypi.org
+log_dir: aiml_fw_athp_sdk_feature_store-py-pypi-stage-master/24
