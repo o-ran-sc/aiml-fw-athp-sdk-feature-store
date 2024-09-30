@@ -35,6 +35,23 @@
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c638955_a38a5a8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000475
+      },
+      "writtenOn": "2024-09-30T10:35:55Z",
+      "side": 1,
+      "message": "Please let us know if are planning to abandon this patch, as already we are fixing it in data-extraction.",
+      "revId": "90369c9f01ca4466f7f6032de4fb18d82acdf8b8",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "af918ea7_8b58f202",
