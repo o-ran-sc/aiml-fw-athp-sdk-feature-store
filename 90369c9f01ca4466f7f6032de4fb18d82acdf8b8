@@ -52,6 +52,24 @@
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e94bbb63_6bef80ea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002500
+      },
+      "writtenOn": "2024-10-02T04:29:04Z",
+      "side": 1,
+      "message": "I was holding off on abandoning the patch to consider adding features like data sorting options. I will go ahead and abandon the patch",
+      "parentUuid": "8c638955_a38a5a8e",
+      "revId": "90369c9f01ca4466f7f6032de4fb18d82acdf8b8",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "af918ea7_8b58f202",
