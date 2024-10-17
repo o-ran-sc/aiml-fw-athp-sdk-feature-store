@@ -1,0 +1,9 @@
+Verified+1: o-ran-sc release <collab-it+o-ran-sc-release@linuxfoundation.org>
+Code-Review+1: Rajdeep Singh <rajdeep.sin@samsung.com>
+Code-Review+2: Joseph Thaliath <jo.thaliath@samsung.com>
+Verified+1: ORAN Required GHA <releng+oran.required.gha@linuxfoundation.org>
+Submitted-by: Joseph Thaliath <jo.thaliath@samsung.com>
+Submitted-at: Thu, 17 Oct 2024 15:46:53 +0000
+Reviewed-on: https://gerrit.o-ran-sc.org/r/c/aiml-fw/athp/sdk/feature-store/+/13605
+Project: aiml-fw/athp/sdk/feature-store
+Branch: refs/heads/master
