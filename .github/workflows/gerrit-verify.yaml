@@ -104,12 +104,12 @@ jobs:
 
       - name: Publish to TestPyPI
         run: |
-          twine upload --repository-url https://test.pypi.org/legacy/ dist/* -u __token__ -p ${{ secrets.PYPI_TEST_TOKEN }}
+          twine upload --repository-url https://test.pypi.org/legacy/ dist/* -u __token__ -p ${{ secrets.PYPI_TEST_TOKEN }} --verbose
           
   vote:
     if: ${{ always() }}
     # yamllint enable rule:line-length
-    needs: [prepare, call-gerrit-tox-verify]
+    needs: [prepare, call-gerrit-tox-verify, publish-package]
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/workflow-conclusion-action@v3
