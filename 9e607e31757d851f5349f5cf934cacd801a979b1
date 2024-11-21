@@ -67,6 +67,23 @@
       "message": "This looks good now the PyPI credential problems are addressed?",
       "revId": "9e607e31757d851f5349f5cf934cacd801a979b1",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc4685d8_7b99e2b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001777
+      },
+      "writtenOn": "2024-11-21T12:44:33Z",
+      "side": 1,
+      "message": "Should be able to merge this change now?",
+      "revId": "9e607e31757d851f5349f5cf934cacd801a979b1",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
