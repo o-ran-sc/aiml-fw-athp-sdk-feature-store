@@ -1,0 +1,8 @@
+Code-Review+2: SANDEEP KUMAR JAISAWAL <s.jaisawal@samsung.com>
+Verified+1: ORAN Required GHA <releng+oran.required.gha@linuxfoundation.org>
+Verified+1: o-ran-sc release <collab-it+o-ran-sc-release@linuxfoundation.org>
+Submitted-by: SANDEEP KUMAR JAISAWAL <s.jaisawal@samsung.com>
+Submitted-at: Mon, 25 Nov 2024 14:38:18 +0000
+Reviewed-on: https://gerrit.o-ran-sc.org/r/c/aiml-fw/athp/sdk/feature-store/+/13775
+Project: aiml-fw/athp/sdk/feature-store
+Branch: refs/heads/master
