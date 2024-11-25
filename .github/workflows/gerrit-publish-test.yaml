@@ -1,5 +1,5 @@
 ---
-name: Gerrit Publish to https://test.pypi.org/legacy/
+name: Gerrit Publish to test.pypi.org
 
 on:
   push:
@@ -10,7 +10,6 @@ on:
 jobs:
   publish-package:
     runs-on: ubuntu-latest
-    needs: call-gerrit-tox-verify
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
