@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66c86f98_b87ec874",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000475
+      },
+      "writtenOn": "2024-11-25T12:30:24Z",
+      "side": 1,
+      "message": "removed the verification vote to unblock the build process.",
+      "revId": "55a7f319f87e7e66ad6e3d83969c5bfb06eed2de",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    }
+  ]
+}
