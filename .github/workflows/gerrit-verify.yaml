@@ -83,33 +83,10 @@ jobs:
       TOX_ENVS: '["code"]'
       PYTHON_VERSION: '3.8'
 
-  publish-package:
-    runs-on: ubuntu-latest
-    needs: call-gerrit-tox-verify
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ inputs.GERRIT_BRANCH }}
-          submodules: "true"
-          
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip setuptools wheel
-          pip install twine
-
-      - name: Build the package
-        run: |
-          python setup.py sdist bdist_wheel
-
-      - name: Publish to TestPyPI
-        run: |
-          twine upload --repository-url https://test.pypi.org/legacy/ dist/* -u __token__ -p ${{ secrets.PYPI_TEST_TOKEN }} --verbose
-          
   vote:
     if: ${{ always() }}
     # yamllint enable rule:line-length
-    needs: [prepare, call-gerrit-tox-verify, publish-package]
+    needs: [prepare, call-gerrit-tox-verify]
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/workflow-conclusion-action@v3

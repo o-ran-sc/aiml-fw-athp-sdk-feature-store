@@ -19,7 +19,7 @@
 from setuptools import setup
 setup(
     name='featurestoresdk',
-    version='0.1',
+    version='0.2',
     description='feature store SDK for Training Host',
     url='https://gerrit.o-ran-sc.org/r/admin/repos/aiml-fw/athp/sdk/feature-store,general',
     author='Joseph Thaliath',
