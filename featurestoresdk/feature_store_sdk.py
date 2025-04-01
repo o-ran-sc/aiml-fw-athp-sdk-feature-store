@@ -123,7 +123,7 @@ class FeatureStoreSdk:
             col = col + feature + ", "
 
         col = col[:-2]
-        query = "select " + col + " from " + trainingjob_name + " ;"
+        query = 'select ' + col + ' from "' + trainingjob_name + '" ;'
         self.logger.debug("Check Select query--> " + query)
         return query
 
@@ -131,4 +131,4 @@ class FeatureStoreSdk:
         """
         Builds simple sql query for given table and single feature
         """
-        return "select " + feature + " from " + trainingjob_name + " ;"
+        return 'select ' + feature + ' from "' + trainingjob_name + '" ;'
