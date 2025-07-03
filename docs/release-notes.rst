@@ -23,16 +23,40 @@ Version history
 | 2022-12-08         | 1.0.0              | Joseph Thaliath    | G release          |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-
+| 2025-07-03         | 4.0.0              | Swaraj Kumar       | L release          |
+|                    |                    |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
 
 Summary
 -------
 
-The G release of AIMLFW feature store SDK provides functionality to retrieve features from feature store during training
+The L release of AIMLFW feature store SDK provides functionality to retrieve features from feature store during training
 
 
 Release Data
-------------
+=============
+
+L Release
+-----------
++--------------------------------------+---------------------------------------------+
+| **Project**                          | AIMLFW feature store SDK                    |
+|                                      |                                             |
++--------------------------------------+---------------------------------------------+
+| **Repo/commit-ID**                   | aiml-fw/athp/sdk/feature-store              |
+|                                      | /3b77d44964ac6dad4c7d74ee6a17247292babc77   |
++--------------------------------------+---------------------------------------------+
+| **Release designation**              | L release                                   |
+|                                      |                                             |
++--------------------------------------+---------------------------------------------+
+| **Release date**                     | 2025-07-03                                  |
+|                                      |                                             |
++--------------------------------------+---------------------------------------------+
+| **Purpose of the delivery**          | Maintenance                                 |
+|                                      |                                             |
++--------------------------------------+---------------------------------------------+
+
+G Release
+-----------
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | AIMLFW feature store SDK             |
