@@ -1,7 +1,7 @@
 {
 	"feature_store_config" : {
 		"feature_store_ip" : "cassandra.traininghost",
-		"feature_store_port" : "9042",	
+		"feature_store_port" : "9042",
 		"feature_store_username" : "cassandra",
 		"feature_store_db_name" : "feature_store"
 	}

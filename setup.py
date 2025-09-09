@@ -26,5 +26,6 @@ setup(
     author_email='jo.thaliath@samsung.com',
     license='Apache 2.0',
     packages=['featurestoresdk'],
+    package_data={"featurestoresdk": ['config/config.json']},
     zip_safe=False
 )
