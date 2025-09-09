@@ -37,6 +37,13 @@ class FeatureStoreSdk:
         self.feature_store_username = self.config["feature_store_username"]
         self.feature_store_password = self.get_feature_store_pwd()
         self.feature_store_db_name = self.config["feature_store_db_name"]
+        self.logger.debug(
+            f"Connecting to Feature Store - "
+            f"ip: {self.feature_store_ip}, "
+            f"port: {self.feature_store_port}, "
+            f"username: {self.feature_store_username}, "
+            f"db: {self.feature_store_db_name}"
+            )
         self.clust = Cluster(
             [self.feature_store_ip],
             port=self.feature_store_port,
@@ -131,4 +138,5 @@ class FeatureStoreSdk:
         """
         Builds simple sql query for given table and single feature
         """
+
         return 'select ' + feature + ' from "' + trainingjob_name + '" ;'

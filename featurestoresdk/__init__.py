@@ -1,6 +1,6 @@
 # ==================================================================================
 #
-#       Copyright (c) 2022 Samsung Electronics Co., Ltd. All Rights Reserved.
+#       Copyright (c) 2025 Samsung Electronics Co., Ltd. All Rights Reserved.
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -15,17 +15,3 @@
 #   limitations under the License.
 #
 # ==================================================================================
-
-from setuptools import setup
-setup(
-    name='featurestoresdk',
-    version='0.3',
-    description='feature store SDK for Training Host',
-    url='https://gerrit.o-ran-sc.org/r/admin/repos/aiml-fw/athp/sdk/feature-store,general',
-    author='Joseph Thaliath',
-    author_email='jo.thaliath@samsung.com',
-    license='Apache 2.0',
-    packages=['featurestoresdk'],
-    package_data={"featurestoresdk": ['config/config.json']},
-    zip_safe=False
-)
