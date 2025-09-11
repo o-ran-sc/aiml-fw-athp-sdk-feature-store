@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7605b58b_f0b84be2",
+        "filename": "featurestoresdk/feature_store_sdk.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000475
+      },
+      "writtenOn": "2025-09-11T12:29:56Z",
+      "side": 1,
+      "message": "I have replaced `print` with `logger.debug`.\n```\nself.logger.debug(\n            f\"Connecting to Feature Store - \"\n            f\"ip: {self.feature_store_ip}, \"\n            f\"port: {self.feature_store_port}, \"\n            f\"username: {self.feature_store_username}, \"\n            f\"db: {self.feature_store_db_name}\"\n)\n```",
+      "parentUuid": "1f7f7a82_cbc0a74a",
+      "revId": "ff22ee12f4e33433c15e254832e367cd77a97308",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c7220411_b3e98de5",
         "filename": "featurestoresdk/feature_store_sdk.py",
         "patchSetId": 2
