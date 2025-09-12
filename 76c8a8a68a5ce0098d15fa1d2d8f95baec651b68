@@ -1,0 +1,12 @@
+Code-Review+2: subhash kumar singh <subh.singh@samsung.com>
+Verified+1: subhash kumar singh <subh.singh@samsung.com>
+Code-Review+1: Swaraj Kumar <swaraj.kumar@samsung.com>
+Verified+1: o-ran-sc release <collab-it+o-ran-sc-release@linuxfoundation.org>
+Code-Review+1: Ashish Jain <jain.ashish@samsung.com>
+Verified+1: ORAN Required GHA <releng+oran.required.gha@linuxfoundation.org>
+Submitted-by: subhash kumar singh <subh.singh@samsung.com>
+Submitted-at: Fri, 12 Sep 2025 12:11:58 +0000
+Reviewed-on: https://gerrit.o-ran-sc.org/r/c/aiml-fw/athp/sdk/feature-store/+/14908
+Comments-Total: 2
+Project: aiml-fw/athp/sdk/feature-store
+Branch: refs/heads/master
