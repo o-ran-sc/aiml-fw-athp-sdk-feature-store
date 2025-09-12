@@ -54,6 +54,24 @@
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "af4f1b02_730ebee3",
+        "filename": "featurestoresdk/feature_store_sdk.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000475
+      },
+      "writtenOn": "2025-09-12T10:30:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7605b58b_f0b84be2",
+      "revId": "ff22ee12f4e33433c15e254832e367cd77a97308",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c7220411_b3e98de5",
@@ -77,6 +95,30 @@
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b2601e9_dd2fa156",
+        "filename": "featurestoresdk/feature_store_sdk.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1000475
+      },
+      "writtenOn": "2025-09-12T10:30:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c7220411_b3e98de5",
+      "range": {
+        "startLine": 136,
+        "startChar": 7,
+        "endLine": 136,
+        "endChar": 71
+      },
+      "revId": "ff22ee12f4e33433c15e254832e367cd77a97308",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bba8cdae_f2f60505",
@@ -90,6 +132,30 @@
       "writtenOn": "2025-09-09T19:24:00Z",
       "side": 1,
       "message": "this need to be removed -- not needed.",
+      "range": {
+        "startLine": 138,
+        "startChar": 0,
+        "endLine": 140,
+        "endChar": 27
+      },
+      "revId": "ff22ee12f4e33433c15e254832e367cd77a97308",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e21d23b0_be696f9d",
+        "filename": "featurestoresdk/feature_store_sdk.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1000475
+      },
+      "writtenOn": "2025-09-12T10:30:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bba8cdae_f2f60505",
       "range": {
         "startLine": 138,
         "startChar": 0,
