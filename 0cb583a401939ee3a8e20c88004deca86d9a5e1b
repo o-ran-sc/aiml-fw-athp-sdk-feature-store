@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bbe5ad1_c845041e",
+        "filename": "pyproject.toml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1002137
+      },
+      "writtenOn": "2025-09-15T10:59:31Z",
+      "side": 1,
+      "message": "The latest version of pandas is `2.3.2`. Isn\u0027t `1.4.4` quite outdated? I don\u0027t think `1.4.4` would have been used even without specifying the version. Could you kindly double-check?",
+      "revId": "0cb583a401939ee3a8e20c88004deca86d9a5e1b",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    }
+  ]
+}
