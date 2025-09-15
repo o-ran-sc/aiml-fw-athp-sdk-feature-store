@@ -16,6 +16,24 @@
       "message": "The latest version of pandas is `2.3.2`. Isn\u0027t `1.4.4` quite outdated? I don\u0027t think `1.4.4` would have been used even without specifying the version. Could you kindly double-check?",
       "revId": "0cb583a401939ee3a8e20c88004deca86d9a5e1b",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c0506df_bfd69755",
+        "filename": "pyproject.toml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000475
+      },
+      "writtenOn": "2025-09-15T11:12:24Z",
+      "side": 1,
+      "message": "I am validating it there is package dependecy.\n\n`tensorflow` 2.5.0 (latest is 2.20.0) will not work higher version of `pandas` and latest version of `tensorflow` is throwing error while model storage.\n\n\nSo, in my opinion we should first stabilize it and any further version upgrade should be taken separately.",
+      "parentUuid": "4bbe5ad1_c845041e",
+      "revId": "0cb583a401939ee3a8e20c88004deca86d9a5e1b",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
