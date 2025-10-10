@@ -4,7 +4,7 @@ name: Gerrit Publish to test.pypi.org
 on:
   push:
     tags:
-      - 'beta.v.[0-9]+.[0-9]+'
+      - 'beta.v.[0-9]+.[0-9]+.[0-9]+'
 
 
 jobs:
