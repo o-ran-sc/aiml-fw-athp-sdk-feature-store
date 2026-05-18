@@ -23,7 +23,7 @@ import logging
 import logging.handlers
 import json
 import sys
-import pkg_resources
+from importlib.resources import files
 from featurestoresdk.sdk_exception import SdkException
 
 class SingletonManager:
@@ -69,9 +69,9 @@ class SingletonManager:
 
             self.__logger.propagate = False
 
-            config_path = pkg_resources.resource_filename('featurestoresdk', 'config/config.json')
-            self.__logger.debug('configpath: %s', config_path)
-            with open(config_path, encoding="utf-8") as config:
+            config_resource = files('featurestoresdk').joinpath('config/config.json')
+            self.__logger.debug('configpath: %s', config_resource)
+            with config_resource.open(encoding="utf-8") as config:
               self.__config = json.load(config)
 
             SingletonManager.__instance = self
